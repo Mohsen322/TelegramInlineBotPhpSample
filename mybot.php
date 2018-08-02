@@ -42,7 +42,6 @@ if($msgType == 'inline_query'){
 
 		$content = array('inline_query_id' => $inline_query_id, "results" => $results);
 		$telegram->answerInlineQuery($content);		
-		
 	}
-
+	
 }
